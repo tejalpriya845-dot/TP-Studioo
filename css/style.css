@@ -1,0 +1,514 @@
+/* 
+   TEJAL PRIYA PORTFOLIO
+   Premium Rose Soft Pink Theme
+*/
+
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(135deg, #fffafa, #fde7ee);
+    color: #3b3035;
+    overflow-x: hidden;
+}
+
+
+
+/* NAVBAR */
+
+nav {
+    width: 100%;
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(15px);
+}
+
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #b76e79;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+
+nav ul li a {
+
+    text-decoration: none;
+    color: #4b3a40;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+
+
+nav ul li a:hover {
+
+    color: #b76e79;
+
+}
+
+
+
+/* HERO SECTION */
+
+
+.hero {
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 120px 10% 60px;
+
+}
+
+
+
+.hero-text {
+
+    max-width: 600px;
+
+    animation: slideLeft 1.2s ease;
+
+}
+
+
+
+.hero-text h1 {
+
+    font-size: 60px;
+    line-height: 1.1;
+
+}
+
+
+
+.hero-text h1 span {
+
+    color: #c88b9b;
+
+}
+
+
+
+.hero-text p {
+
+    margin-top: 20px;
+    font-size: 20px;
+    color: #6d5960;
+
+}
+
+
+
+.hero-image {
+
+    animation: slideRight 1.2s ease;
+
+}
+
+
+
+.hero-image img {
+
+    width: 330px;
+    height: 330px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    padding: 8px;
+
+    background: #f3c6d3;
+
+    box-shadow: 0 20px 40px rgba(183,110,121,0.25);
+
+}
+
+
+
+/* BUTTON */
+
+
+.btn {
+
+    display: inline-block;
+
+    margin-top: 30px;
+
+    padding: 14px 35px;
+
+    background: linear-gradient(
+        135deg,
+        #c88b9b,
+        #e8b8c5
+    );
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 40px;
+
+    transition: 0.4s;
+
+}
+
+
+
+.btn:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 15px 30px rgba(183,110,121,0.3);
+
+}
+
+
+
+/* SECTIONS */
+
+
+section {
+
+    padding: 80px 10%;
+
+}
+
+
+
+.section-title {
+
+    text-align: center;
+
+    font-size: 40px;
+
+    color: #b76e79;
+
+    margin-bottom: 50px;
+
+}
+
+
+
+/* ABOUT */
+
+
+.about-box {
+
+    background: rgba(255,255,255,0.7);
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+
+    animation: fadeUp 1s ease;
+
+}
+
+
+
+/* CARDS */
+
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap: 30px;
+
+}
+
+
+
+.card {
+
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+
+    transition: 0.4s;
+
+}
+
+
+
+.card:hover {
+
+    transform: translateY(-12px);
+
+    box-shadow: 0 20px 40px rgba(183,110,121,0.2);
+
+}
+
+
+
+.card h3 {
+
+    color: #b76e79;
+
+}
+
+
+
+/* PROJECT IMAGES */
+
+
+.card img {
+
+    width: 100%;
+
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+/* SOCIAL LINKS */
+
+
+.social-links {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+}
+
+
+
+.social-links a {
+
+    width: 50px;
+
+    height: 50px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #f4d5de;
+
+    color: #7d4d58;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+
+}
+
+
+
+.social-links a:hover {
+
+    background: #b76e79;
+
+    color: white;
+
+    transform: scale(1.1);
+
+}
+
+
+
+/* FOOTER */
+
+
+footer {
+
+    padding: 25px;
+
+    text-align: center;
+
+    background: #3b3035;
+
+    color: white;
+
+}
+
+
+
+/* ANIMATIONS */
+
+
+@keyframes slideLeft {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateX(-80px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateX(0);
+
+    }
+
+}
+
+
+
+@keyframes slideRight {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateX(80px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateX(0);
+
+    }
+
+}
+
+
+
+@keyframes fadeUp {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateY(50px);
+
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateY(0);
+
+    }
+
+}
+
+
+
+/* RESPONSIVE DESIGN */
+
+
+@media(max-width:900px) {
+
+
+    .hero {
+
+        flex-direction: column;
+
+        text-align: center;
+
+    }
+
+
+    .hero-text h1 {
+
+        font-size: 42px;
+
+    }
+
+
+    .hero-image img {
+
+        width: 250px;
+
+        height: 250px;
+
+    }
+
+
+    nav ul {
+
+        display: none;
+
+    }
+
+}
+
+
+
+@media(max-width:500px) {
+
+
+    .hero-text h1 {
+
+        font-size: 34px;
+
+    }
+
+
+    .hero-text p {
+
+        font-size: 16px;
+
+    }
+
+
+    section {
+
+        padding: 60px 5%;
+
+    }
+
+}
