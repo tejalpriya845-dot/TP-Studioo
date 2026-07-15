@@ -2,334 +2,473 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Studio | Tejal Priya</title>
 
-<title>TP Studio | Tejal Priya</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
-
-<!-- Cute icons -->
-<link rel="stylesheet" 
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
 
 </head>
-
-
+<script src="js/script.js"></script>
 <body>
 
+    <!-- Mouse Glow -->
+    <div class="cursor-glow"></div>
 
-<!-- Navbar -->
+    <!-- Floating Flowers -->
+    <div class="flowers">
+        <span>🌸</span>
+        <span>✨</span>
+        <span>🌷</span>
+        <span>💖</span>
+        <span>🌸</span>
+    </div>
 
-<header>
+    <!-- ================= NAVBAR ================= -->
 
-<div class="logo">
-TP Studio ✨
-</div>
+    <header>
 
+        <div class="logo">
+            TP Studio
+        </div>
 
-<nav>
+        <nav>
 
-<a href="index.html">Home</a>
+            <ul>
 
-<a href="image.html">Images</a>
+                <li><a href="#home">Home</a></li>
 
-<a href="#about">About</a>
+                <li><a href="#about">About</a></li>
 
-<a href="#projects">Projects</a>
+                <li><a href="#skills">Skills</a></li>
 
-<a href="#contact">Contact</a>
+                <li><a href="#projects">Projects</a></li>
 
-</nav>
+                <li><a href="#certifications">Certificates</a></li>
 
+                <li><a href="#resume">Resume</a></li>
 
-</header>
+                <li><a href="#contact">Contact</a></li>
 
+            </ul>
 
+        </nav>
 
+    </header>
 
+    <!-- ================= HERO ================= -->
 
-<!-- Hero Section -->
+    <section class="hero" id="home">
 
-<section class="hero">
+        <div class="hero-left">
 
+            <p class="hello">
+                Hello, I'm
+            </p>
 
-<div class="hero-text">
+            <h1>
 
+                <span>Tejal</span>
 
-<h1>
-Hi, I'm <span>Tejal Priya</span> 💗
-</h1>
+                Priya
 
+            </h1>
 
-<h2>
-Creative Developer | AI Enthusiast | Designer
-</h2>
+            <h2>
+                Computer Science Student • AI Enthusiast • Future Software Engineer
+            </h2>
 
+            <p class="hero-text">
 
-<p>
+                I love building elegant digital experiences where creativity meets technology.
+                My interests include Artificial Intelligence, Machine Learning, Web Development,
+                and designing thoughtful products that solve real-world problems.
 
-Welcome to TP Studio — a place where creativity,
-technology and ideas come together.
-I create projects with passion and curiosity.
+            </p>
 
-</p>
+            <div class="hero-buttons">
 
+                <a href="#projects" class="btn primary">
+                    Explore My Work
+                </a>
 
+                <a href="#contact" class="btn secondary">
+                    Let's Connect
+                </a>
 
-<div class="buttons">
+            </div>
 
-<a href="#projects" class="btn">
-View My Work
-</a>
+            <div class="social-icons">
 
+                <a href="#"><i class="fab fa-github"></i></a>
 
-<a href="image.html" class="btn">
-My Gallery
-</a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
 
+                <a href="#"><i class="fab fa-instagram"></i></a>
 
-</div>
+                <a href="#"><i class="fas fa-envelope"></i></a>
 
+            </div>
 
+        </div>
 
-</div>
+        <div class="hero-right">
 
+            <div class="profile-card">
 
+                <img src="images/profile.jpg" alt="Tejal Priya">
 
+            </div>
 
-<div class="hero-image">
+            <div class="portfolio-card">
 
+                <img src="images/portfolio.jpg" alt="Portfolio">
 
-<img src="images/profile.jpg" 
-alt="Tejal Profile">
+            </div>
 
+        </div>
 
-</div>
+    </section>
 
+    <!-- ================= ABOUT ================= -->
 
+    <section id="about" class="about">
 
-</section>
+        <div class="section-title">
 
+            <h2>About Me</h2>
 
+            <span></span>
 
+        </div>
 
+        <div class="about-container">
 
+            <div class="about-image">
 
+                <img src="images/profile.jpg" alt="About Me">
 
-<!-- About Section -->
+            </div>
 
+            <div class="about-content">
 
-<section id="about" class="about">
+                <h3>
+                    Turning Curiosity into Intelligent Solutions
+                </h3>
 
+                <p>
 
-<h1>
-About Me 🌸
-</h1>
+                    I'm a Computer Science Engineering student passionate about AI,
+                    software development, and thoughtful user experiences.
+                    I enjoy combining analytical thinking with creativity to build
+                    projects that are practical, elegant, and impactful.
 
+                </p>
 
-<p>
+                <p>
 
-I am Tejal Priya, a passionate learner exploring
-web development, artificial intelligence and creative
-technology.
+                    Beyond coding, I love exploring technology trends,
+                    continuous learning, and expressing ideas through design.
 
-TP Studio represents my journey of learning,
-building and creating meaningful digital experiences.
+                </p>
 
-</p>
+                <div class="about-cards">
 
+                    <div class="card">
 
+                        <i class="fas fa-graduation-cap"></i>
 
-<div class="info-box">
+                        <h4>Education</h4>
 
+                        <p>
+                            B.Tech Computer Science
+                        </p>
 
-<div>
+                    </div>
 
-<i class="fa-solid fa-code"></i>
+                    <div class="card">
 
-<h3>
-Skills
-</h3>
+                        <i class="fas fa-brain"></i>
 
-<p>
-HTML, CSS, Python, AI Projects
-</p>
+                        <h4>AI & ML</h4>
 
-</div>
+                        <p>
+                            Intelligent systems and automation.
+                        </p>
 
+                    </div>
 
+                    <div class="card">
 
-<div>
+                        <i class="fas fa-code"></i>
 
-<i class="fa-solid fa-heart"></i>
+                        <h4>Development</h4>
 
-<h3>
-Interests
-</h3>
+                        <p>
+                            Building modern responsive applications.
+                        </p>
 
-<p>
-Design, Technology, Creativity
-</p>
+                    </div>
 
-</div>
+                </div>
 
+            </div>
 
+        </div>
 
-<div>
+    </section>
 
-<i class="fa-solid fa-lightbulb"></i>
+    <!-- ================= SKILLS ================= -->
 
-<h3>
-Vision
-</h3>
+    <section class="skills" id="skills">
 
-<p>
-Build smart and beautiful solutions
-</p>
+        <div class="section-title">
 
-</div>
+            <h2>Technical Skills</h2>
 
+            <span></span>
 
-</div>
+        </div>
 
+        <div class="skills-grid">
 
-</section>
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
 
+            <div class="skill-card">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+            </div>
 
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
 
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
 
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
 
+            <div class="skill-card">
+                <i class="fas fa-robot"></i>
+                <h3>Artificial Intelligence</h3>
+            </div>
 
+            <div class="skill-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Machine Learning</h3>
+            </div>
 
+            <div class="skill-card">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git & GitHub</h3>
+            </div>
 
-<!-- Projects -->
+        </div>
 
+    </section>
 
-<section id="projects" class="projects">
+        <!-- ================= PROJECTS ================= -->
 
+    <section id="projects" class="projects">
 
-<h1>
-My Projects 💻
-</h1>
+        <div class="section-title">
+            <h2>Featured AI Projects</h2>
+            <span></span>
+        </div>
 
+        <div class="projects-grid">
 
+            <div class="project-card">
+                <i class="fas fa-robot"></i>
+                <h3>AI Companion</h3>
+                <p>
+                    A conversational AI assistant designed to answer questions,
+                    automate tasks, and provide a friendly interactive experience.
+                </p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
 
-<div class="project-card">
+            <div class="project-card">
+                <i class="fas fa-user-graduate"></i>
+                <h3>College Admission Predictor</h3>
+                <p>
+                    Machine Learning based admission prediction system that helps
+                    students estimate admission chances using academic profiles.
+                </p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
 
+            <div class="project-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>TP Studio</h3>
+                <p>
+                    My premium personal portfolio showcasing my journey,
+                    technical skills, certifications and AI projects.
+                </p>
+                <a href="#" class="project-btn">View Project</a>
+            </div>
 
-<img src="images/portfolio.jpg"
-alt="Portfolio">
+        </div>
 
+    </section>
 
-<h2>
-Portfolio Website
-</h2>
+    <!-- ================= CERTIFICATIONS ================= -->
 
+    <section id="certifications" class="certifications">
 
-<p>
+        <div class="section-title">
+            <h2>Certifications</h2>
+            <span></span>
+        </div>
 
-A modern personal portfolio created to
-showcase my skills, creativity and projects.
+        <div class="certificate-list">
 
-</p>
+            <div class="certificate">
+                <h3>Python Programming</h3>
+                <p>Add your certification details here.</p>
+            </div>
 
+            <div class="certificate">
+                <h3>Artificial Intelligence</h3>
+                <p>Add your certification details here.</p>
+            </div>
 
-</div>
+            <div class="certificate">
+                <h3>Machine Learning</h3>
+                <p>Add your certification details here.</p>
+            </div>
 
+        </div>
 
+    </section>
 
+    <!-- ================= RESUME ================= -->
 
-<div class="project-card">
+    <section id="resume" class="resume">
 
+        <div class="section-title">
+            <h2>Resume</h2>
+            <span></span>
+        </div>
 
-<h2>
-AURA AI Assistant 🤖
-</h2>
+        <p>
+            Download my latest resume to know more about my education,
+            projects and technical experience.
+        </p>
 
+        <a href="resume.pdf" class="btn primary" download>
+            <i class="fas fa-download"></i>
+            Download Resume
+        </a>
 
-<p>
+    </section>
 
-An offline-first personal AI assistant project
-built using Python and local AI models.
+    <!-- ================= TODAY'S VIBE ================= -->
 
-</p>
+    <section class="vibe">
 
+        <div class="section-title">
+            <h2>Today's Vibe ✨</h2>
+            <span></span>
+        </div>
 
-</div>
+        <div class="vibe-box">
 
+            <p id="vibeText">
+                Click below for today's inspiration.
+            </p>
 
+            <button id="vibeButton" class="btn secondary">
+                Show My Vibe
+            </button>
 
+        </div>
 
-</section>
+    </section>
 
+    <!-- ================= CONTACT ================= -->
 
+    <section id="contact" class="contact">
 
+        <div class="section-title">
+            <h2>Let's Connect</h2>
+            <span></span>
+        </div>
 
+        <form>
 
+            <input
+                type="text"
+                placeholder="Your Name"
+                required>
 
+            <input
+                type="email"
+                placeholder="Your Email"
+                required>
 
+            <textarea
+                rows="6"
+                placeholder="Your Message"></textarea>
 
-<!-- Contact -->
+            <button type="submit" class="btn primary">
+                Send Message
+            </button>
 
+        </form>
 
-<section id="contact" class="contact">
+    </section>
 
+    <!-- ================= FOOTER ================= -->
 
-<h1>
-Let's Connect 💌
-</h1>
+    <footer>
 
+        <h2>TP Studio</h2>
 
-<p>
-Follow my journey and explore my work.
-</p>
+        <p>
+            Designed & Developed with ❤️ by Tejal Priya
+        </p>
 
+        <div class="footer-icons">
 
+            <a href="#"><i class="fab fa-github"></i></a>
 
-<div class="social">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
 
+            <a href="#"><i class="fab fa-instagram"></i></a>
 
-<a href="#">
-<i class="fa-brands fa-linkedin"></i>
-</a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
 
+        </div>
 
-<a href="#">
-<i class="fa-brands fa-instagram"></i>
-</a>
+        <p>
+            © 2026 All Rights Reserved.
+        </p>
 
+    </footer>
 
-<a href="https://github.com/tejalpriya845-dot">
-<i class="fa-brands fa-github"></i>
-</a>
+    <!-- ================= JS ================= -->
 
-
-</div>
-
-
-
-</section>
-
-
-
-
-
-
-<footer>
-
-<p>
-© 2026 TP Studio | Made with 💗 by Tejal Priya
-</p>
-
-</footer>
-
-
-
+    <script src="js/script.js"></script>
 
 </body>
-
 </html>
